@@ -16,7 +16,7 @@ All custom files and entries in the BOM follow the **RT_XXX_YY_000_Name** naming
 | **ARM** | Biceps & Forearms | **CO** | Commercial (Off-the-shelf) |
 | **EFF** | Effector & Hotend | **SK** | Skeleton / Reference |
 | **BED** | Bed & Z-Axis | **AS** | Sub-Assembly |
-| **ENC** | Enclosure (PA12) | **EL** | Electronics Component |
+| **ENC** | Enclosure | **EL** | Electronics Component |
 
 ---
 
