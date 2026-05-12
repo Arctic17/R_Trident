@@ -63,7 +63,8 @@ params.deg_to_pulses = (params.pulses_per_rev * params.gear_ratio) / 360;
 %% --- PID TUNING ---
 Kp = 40;    
 Ki = 4.0;  
-Kd = 1.5;   
+Kd = 2;
+Nd = 200;
 % ------------------------------------
 %% Display Summary
 fprintf('--- R-Trident Configuration Loaded ---\n');
