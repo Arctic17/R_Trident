@@ -11,18 +11,18 @@ params.rho_aluminum = 2700;
 params.rho_steel = 7850;        
 
 % Bicep
-params.bicep_length = 175; 
+params.bicep_length = 150; 
 params.bicep_width  = 16;   
 params.bicep_height = 30;
 params.bicep_geo =  [params.bicep_length params.bicep_width params.bicep_height];
 
 % Forearm 
-params.forearm_length = 350;
+params.forearm_length = 335;
 params.rod_radius   = 6; 
 
 % End Effector
 params.plate_thickness = 10;
-params.plate_radius    = 40; 
+params.plate_radius    = 35; 
 
 % End-Effector Geometry
 params.e = params.plate_radius;   % tool plate radius
