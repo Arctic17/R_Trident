@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-26072023-080797";"";
+"REFERENCE";"WDR-240-24";"";
+"SUPPLIER_PART_NUMBER";"70069764";"";
+"rs_stock_number";"70069764";"";
+"TraceParts.PartTitle";"WDR-240-24 - Power Supply, AC-DC 24V 10A 240W PFC DIN Rail Mount WDR-240 Series";"";
+"SUPPLIER_NAME";"RS Americas";"";
+"SUPPLIER";"MEAN WELL";"";
+"DESIGN";"WDR-240-24 - Power Supply, AC-DC 24V 10A 240W PFC DIN Rail Mount WDR-240 Series";"";
+"TraceParts.InstanceId";"90-26072023-08079736FDR7KA1GQNQOJK3QTZMLD2H";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.1";"";
