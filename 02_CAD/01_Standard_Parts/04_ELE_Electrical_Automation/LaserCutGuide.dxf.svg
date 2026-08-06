@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 2722.2597 1701.7874"
+   width="2722.2598"
+   height="1701.7874"
+   version="1.1"
+   id="svg30"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <desc
+     id="desc1">LaserCutGuide.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = file</desc>
+  <defs
+     id="defs4" />
+  <g
+     id="g30"
+     transform="translate(0.5,578.76772)">
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 347.717,-1211.72 v 2965.8"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 948.661,1754.08 v -2965.8"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2413.23,1754.08 v -2965.8"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1700.79,-1211.72 v 2965.8"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 3265.51,1075.28 H -544.252"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 3265.51,-531.024 H -544.252"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 2150.55,-786.142 V 1330.39"
+       id="path12" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 646.299,1330.39 V -786.142"
+       id="path13" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 1247.24,-788.031 V 1328.5"
+       id="path14" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 45.3543,-788.031 V 1328.5"
+       id="path15" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 2675.91,-786.142 V 1330.39"
+       id="path16" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2032.4409,778.58268 a 8.503937,8.503937 0 0 0 -17.0078,0 8.503937,8.503937 0 0 0 17.0078,0 z"
+       id="path17" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2032.4409,967.55905 a 8.503937,8.503937 0 0 0 -17.0078,0 8.503937,8.503937 0 0 0 17.0078,0 z"
+       id="path18" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2032.4409,589.6063 a 8.503937,8.503937 0 0 0 -17.0078,0 8.503937,8.503937 0 0 0 17.0078,0 z"
+       id="path19" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1423.937,483.77953 a 8.50395,8.50395 0 0 0 -17.0079,0 8.50395,8.50395 0 0 0 17.0079,0 z"
+       id="path20" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1423.937,672.75591 a 8.50395,8.50395 0 0 0 -17.0079,0 8.50395,8.50395 0 0 0 17.0079,0 z"
+       id="path21" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1423.937,861.73228 a 8.50395,8.50395 0 0 0 -17.0079,0 8.50395,8.50395 0 0 0 17.0079,0 z"
+       id="path22" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 301.417,990.236 h 92.599"
+       id="path23" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 394.016,-445.984 H 301.417"
+       id="path24" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1747.09,-445.984 h -92.6"
+       id="path25" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 1654.49,423.307 h 92.6"
+       id="path26" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2459.53,-447.874 h -92.6"
+       id="path27" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 2366.93,988.346 h 92.6"
+       id="path28" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="m 902.362,988.346 h 92.599"
+       id="path29" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 994.961,-447.874 H 902.362"
+       id="path30" />
+    <path
+       style="fill:none;stroke:#000000"
+       d="M 0,-578.26772 V 1122.5197 H 2721.2598 V -578.26772 Z"
+       id="path5" />
+  </g>
+</svg>
