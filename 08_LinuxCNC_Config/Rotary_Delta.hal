@@ -63,6 +63,11 @@ net e2-act-pos     lcec.0.servo_j2.position-actual    => cia402.2.drv-actual-pos
 net e2-tar-pos     cia402.2.drv-target-position       => lcec.0.servo_j2.target-position
 
 # ==========================================
+# WAGO BUTTON TO RELAY MAPPING
+# ==========================================
+net button-relay-link lcec.0.wago.t5-in-1 => lcec.0.wago.t1-out-1
+
+# ==========================================
 # SAFETY LOOP
 # ==========================================
 net estop-loop iocontrol.0.user-enable-out => iocontrol.0.emc-enable-in
