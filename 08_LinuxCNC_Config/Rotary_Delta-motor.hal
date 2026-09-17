@@ -1,0 +1,69 @@
+# 1. Comment these out so they do not conflict with the main HAL file!
+# loadrt [KINS]KINEMATICS
+# loadrt motmod servo_period_nsec=1000000 num_joints=3
+
+# 3. Invoke the LinuxCNC-EtherCAT user space XML map parser
+loadusr -W lcec_conf /home/r-trident/linuxcnc/configs/Rotary_Delta/ethercat-conf.xml
+
+# 4. Load the core real-time EtherCAT component driver
+loadrt lcec
+# Load THREE instances of the CiA402 handler for the three drives
+loadrt cia402 count=3
+
+# 5. Thread Function Assignments
+addf lcec.read-all servo-thread
+addf cia402.0.read-all servo-thread
+addf cia402.1.read-all servo-thread
+addf cia402.2.read-all servo-thread
+addf motion-command-handler servo-thread
+addf motion-controller servo-thread
+addf cia402.0.write-all servo-thread
+addf cia402.1.write-all servo-thread
+addf cia402.2.write-all servo-thread
+addf lcec.write-all servo-thread
+
+# ==========================================
+# JOINT 0 (Axis 1)
+# ==========================================
+net j0-pos-cmd  joint.0.motor-pos-cmd  => cia402.0.pos-cmd
+net j0-pos-fb   cia402.0.pos-fb        => joint.0.motor-pos-fb
+net j0-enable   joint.0.amp-enable-out => cia402.0.enable
+
+# 2^17 = 131,072 counts per revolution
+setp cia402.0.pos-scale 131072
+
+net e0-statusword  lcec.0.servo_j0.statusword         => cia402.0.statusword
+net e0-controlword cia402.0.controlword               => lcec.0.servo_j0.controlword
+net e0-act-pos     lcec.0.servo_j0.position-actual    => cia402.0.drv-actual-position
+net e0-tar-pos     cia402.0.drv-target-position       => lcec.0.servo_j0.target-position
+
+# ==========================================
+# JOINT 1 (Axis 2)
+# ==========================================
+net j1-pos-cmd  joint.1.motor-pos-cmd  => cia402.1.pos-cmd
+net j1-pos-fb   cia402.1.pos-fb        => joint.1.motor-pos-fb
+net j1-enable   joint.1.amp-enable-out => cia402.1.enable
+
+setp cia402.1.pos-scale 131072
+
+net e1-statusword  lcec.0.servo_j1.statusword         => cia402.1.statusword
+net e1-controlword cia402.1.controlword               => lcec.0.servo_j1.controlword
+net e1-act-pos     lcec.0.servo_j1.position-actual    => cia402.1.drv-actual-position
+net e1-tar-pos     cia402.1.drv-target-position       => lcec.0.servo_j1.target-position
+
+# ==========================================
+# JOINT 2 (Axis 3)
+# ==========================================
+net j2-pos-cmd  joint.2.motor-pos-cmd  => cia402.2.pos-cmd
+net j2-pos-fb   cia402.2.pos-fb        => joint.2.motor-pos-fb
+net j2-enable   joint.2.amp-enable-out => cia402.2.enable
+
+setp cia402.2.pos-scale 131072
+
+net e2-statusword  lcec.0.servo_j2.statusword         => cia402.2.statusword
+net e2-controlword cia402.2.controlword               => lcec.0.servo_j2.controlword
+net e2-act-pos     lcec.0.servo_j2.position-actual    => cia402.2.drv-actual-position
+net e2-tar-pos     cia402.2.drv-target-position       => lcec.0.servo_j2.target-position
+
+# 8. Safety Loop
+net estop-loop iocontrol.0.user-enable-out => iocontrol.0.emc-enable-in
