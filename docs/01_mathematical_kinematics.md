@@ -5,9 +5,12 @@ To start, we need to establish some groundwork. A standard machine uses a Cartes
 <div align="center">
 <figure>
     <img src="./img/STD_Cartesian_geogebra-export.png"
-         alt="Remplissage de futs Image Burgener AG"
+         alt="Standard cartesian representation of a point."
          width="400">
-    <figcaption> Example of a cartesian motion system.</figcaption>
+    <figcaption> 
+        
+        Example of a cartesian motion system.
+</figcaption>
 </figure>
 </div>
 
@@ -134,32 +137,6 @@ graph TD
     end
 
     Elbow ====>|Spatial Link Constraint: l| Wrist
-```
-
-Additional Deep-Dive Content to Paste Into Section 01:
-
-```mermaid
-graph TD
-    subgraph Trajectory Planner
-        Cmd[Target Trajectory: mm/s] --> Diff[Discrete Derivative dt]
-        Diff --> VFF[VFF Gain Kvff]
-    end
-
-    subgraph Error Compensation Loop
-        Cmd -->|Target Pos: mm| SumError((+ / -))
-        Feedback_mm -->|Actual Pos: mm| SumError
-        SumError --> PID[PID Controller Engine]
-    end
-
-    PID --> SumTorque((+))
-    VFF -->|Pre-emptive Effort| SumTorque
-    
-    subgraph Simscape Physical Plant
-        SumTorque --> Plant[Simscape Multibody Engine]
-        Plant --> RawSens[Sensor Feedback Loop]
-        RawSens -->|Unit Trap: METERS| Gain[1000x Scale Gain Block]
-        Gain -->|Corrected: mm| Feedback_mm
-    end
 ```
 
 # Mathematical Kinematics and Coordinate Frameworks for Rotary Delta Robot
