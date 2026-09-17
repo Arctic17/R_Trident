@@ -19,48 +19,48 @@ addf cia402.0.write-all servo-thread
 addf cia402.1.write-all servo-thread
 addf cia402.2.write-all servo-thread
 addf lcec.write-all servo-thread
-
 # ==========================================
 # JOINT 0 (Axis 1)
 # ==========================================
-net j0-pos-cmd  joint.0.motor-pos-cmd  => cia402.0.pos-cmd
-net j0-pos-fb   cia402.0.pos-fb        => joint.0.motor-pos-fb
+net j0-pos-cmd  joint.0.motor-pos-cmd  => cia402.0.pos-cmd => joint.0.motor-pos-fb
+# net j0-pos-fb   cia402.0.pos-fb        => joint.0.motor-pos-fb
 net j0-enable   joint.0.amp-enable-out => cia402.0.enable
 
 setp cia402.0.pos-scale 364.088889
 
-net e0-statusword  lcec.0.servo_j0.statusword         => cia402.0.statusword
-net e0-controlword cia402.0.controlword               => lcec.0.servo_j0.controlword
+net e0-statusword  lcec.0.servo_j0.statusword          => cia402.0.statusword
+net e0-controlword cia402.0.controlword                => lcec.0.servo_j0.controlword
 net e0-act-pos     lcec.0.servo_j0.position-actual    => cia402.0.drv-actual-position
 net e0-tar-pos     cia402.0.drv-target-position       => lcec.0.servo_j0.target-position
 
 # ==========================================
 # JOINT 1 (Axis 2)
 # ==========================================
-net j1-pos-cmd  joint.1.motor-pos-cmd  => cia402.1.pos-cmd
-net j1-pos-fb   cia402.1.pos-fb        => joint.1.motor-pos-fb
+net j1-pos-cmd  joint.1.motor-pos-cmd  => cia402.1.pos-cmd => joint.1.motor-pos-fb
+# net j1-pos-fb   cia402.1.pos-fb        => joint.1.motor-pos-fb
 net j1-enable   joint.1.amp-enable-out => cia402.1.enable
 
 setp cia402.1.pos-scale 364.088889
 
-net e1-statusword  lcec.0.servo_j1.statusword         => cia402.1.statusword
-net e1-controlword cia402.1.controlword               => lcec.0.servo_j1.controlword
+net e1-statusword  lcec.0.servo_j1.statusword          => cia402.1.statusword
+net e1-controlword cia402.1.controlword                => lcec.0.servo_j1.controlword
 net e1-act-pos     lcec.0.servo_j1.position-actual    => cia402.1.drv-actual-position
 net e1-tar-pos     cia402.1.drv-target-position       => lcec.0.servo_j1.target-position
 
 # ==========================================
 # JOINT 2 (Axis 3)
 # ==========================================
-net j2-pos-cmd  joint.2.motor-pos-cmd  => cia402.2.pos-cmd
-net j2-pos-fb   cia402.2.pos-fb        => joint.2.motor-pos-fb
+net j2-pos-cmd  joint.2.motor-pos-cmd  => cia402.2.pos-cmd => joint.2.motor-pos-fb
+# net j2-pos-fb   cia402.2.pos-fb        => joint.2.motor-pos-fb
 net j2-enable   joint.2.amp-enable-out => cia402.2.enable
 
 setp cia402.2.pos-scale 364.088889
 
-net e2-statusword  lcec.0.servo_j2.statusword         => cia402.2.statusword
-net e2-controlword cia402.2.controlword               => lcec.0.servo_j2.controlword
+net e2-statusword  lcec.0.servo_j2.statusword          => cia402.2.statusword
+net e2-controlword cia402.2.controlword                => lcec.0.servo_j2.controlword
 net e2-act-pos     lcec.0.servo_j2.position-actual    => cia402.2.drv-actual-position
 net e2-tar-pos     cia402.2.drv-target-position       => lcec.0.servo_j2.target-position
+
 
 # ==========================================
 # WAGO BUTTON TO RELAY MAPPING
@@ -71,3 +71,11 @@ net button-relay-link lcec.0.wago.t5-in-1 => lcec.0.wago.t1-out-1
 # SAFETY LOOP
 # ==========================================
 net estop-loop iocontrol.0.user-enable-out => iocontrol.0.emc-enable-in
+
+# ==========================================
+# ROTARY DELTA GEOMETRY (mm)
+# ==========================================
+setp rotarydeltakins.footradius       90.0
+setp rotarydeltakins.platformradius   22.5
+setp rotarydeltakins.thighlength     150.0
+setp rotarydeltakins.shinlength      335.0
