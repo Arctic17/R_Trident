@@ -9,6 +9,8 @@ set ::watchlist {
     pin+lcec.0.servo_j0.statusword
     pin+lcec.0.servo_j0.error-code
     pin+lcec.0.servo_j0.torque-actual
+    pin+lcec.0.servo_j1.position-actual
+    pin+lcec.0.pll-reset-count
 }
 set ::workmode watchhal
 set ::watchInterval 100
