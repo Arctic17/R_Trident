@@ -6,11 +6,8 @@ set ::ratio 0.3
 set ::old_w_leftf 160
 set ::watchlist {
     pin+lcec.0.servo_j0.position-actual
-    pin+lcec.0.servo_j0.statusword
-    pin+lcec.0.servo_j0.error-code
-    pin+lcec.0.servo_j0.torque-actual
     pin+lcec.0.servo_j1.position-actual
-    pin+lcec.0.pll-reset-count
+    pin+lcec.0.servo_j2.position-actual
 }
 set ::workmode watchhal
 set ::watchInterval 100
