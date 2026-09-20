@@ -23,12 +23,11 @@ addf lcec.write-all servo-thread
 # ==========================================
 # JOINT 0 (Axis 1)
 # ==========================================
-net j0-enable   joint.0.amp-enable-out => cia402.0.enable
+net j0-enable      joint.0.amp-enable-out => cia402.0.enable
 setp cia402.0.pos-scale 364.088889
 
-# Direct command and TRUE encoder feedback
-net j0-pos-cmd  joint.0.motor-pos-cmd  => cia402.0.pos-cmd
-net j0-pos-fb   cia402.0.pos-fb        => joint.0.motor-pos-fb
+net j0-pos-cmd     joint.0.motor-pos-cmd  => cia402.0.pos-cmd
+net j0-pos-fb      cia402.0.pos-fb        => joint.0.motor-pos-fb
 
 net e0-statusword  lcec.0.servo_j0.statusword        => cia402.0.statusword
 net e0-controlword cia402.0.controlword              => lcec.0.servo_j0.controlword
@@ -38,12 +37,11 @@ net e0-tar-pos     cia402.0.drv-target-position     => lcec.0.servo_j0.target-po
 # ==========================================
 # JOINT 1 (Axis 2)
 # ==========================================
-net j1-enable   joint.1.amp-enable-out => cia402.1.enable
+net j1-enable      joint.1.amp-enable-out => cia402.1.enable
 setp cia402.1.pos-scale 364.088889
 
-# Direct command and TRUE encoder feedback
-net j1-pos-cmd  joint.1.motor-pos-cmd  => cia402.1.pos-cmd
-net j1-pos-fb   cia402.1.pos-fb        => joint.1.motor-pos-fb
+net j1-pos-cmd     joint.1.motor-pos-cmd  => cia402.1.pos-cmd
+net j1-pos-fb      cia402.1.pos-fb        => joint.1.motor-pos-fb
 
 net e1-statusword  lcec.0.servo_j1.statusword        => cia402.1.statusword
 net e1-controlword cia402.1.controlword              => lcec.0.servo_j1.controlword
@@ -53,12 +51,11 @@ net e1-tar-pos     cia402.1.drv-target-position     => lcec.0.servo_j1.target-po
 # ==========================================
 # JOINT 2 (Axis 3)
 # ==========================================
-net j2-enable   joint.2.amp-enable-out => cia402.2.enable
+net j2-enable      joint.2.amp-enable-out => cia402.2.enable
 setp cia402.2.pos-scale 364.088889
 
-# Direct command and TRUE encoder feedback
-net j2-pos-cmd  joint.2.motor-pos-cmd  => cia402.2.pos-cmd
-net j2-pos-fb   cia402.2.pos-fb        => joint.2.motor-pos-fb
+net j2-pos-cmd     joint.2.motor-pos-cmd  => cia402.2.pos-cmd
+net j2-pos-fb      cia402.2.pos-fb        => joint.2.motor-pos-fb
 
 net e2-statusword  lcec.0.servo_j2.statusword        => cia402.2.statusword
 net e2-controlword cia402.2.controlword              => lcec.0.servo_j2.controlword
@@ -70,10 +67,22 @@ net e2-tar-pos     cia402.2.drv-target-position     => lcec.0.servo_j2.target-po
 # ==========================================
 net button-relay-link lcec.0.wago.t5-in-1 => lcec.0.wago.t1-out-1
 
-# =========================================================
-# AUTOMATIC MOTOR BRAKE RELEASE (WAGO 750-531 DO2)
-# =========================================================
-net machine-is-on halui.machine.is-on => lcec.0.wago.t1-out-2
+# ==========================================
+# AUTOMATIC MOTOR BRAKE RELEASE
+# ==========================================
+# Load an AND block to ensure ALL 3 drives are in "Operation Enabled" (active holding torque)
+# before the 24V brake relay is allowed to release
+loadrt and2 names=brakes_and1,brakes_and2
+addf brakes_and1 servo-thread
+addf brakes_and2 servo-thread
+
+net j0-active cia402.0.stat-op-enabled => brakes_and1.in0
+net j1-active cia402.1.stat-op-enabled => brakes_and1.in1
+net j01-active brakes_and1.out         => brakes_and2.in0
+net j2-active cia402.2.stat-op-enabled => brakes_and2.in1
+
+# Only energize the WAGO relay (releasing the brake) when all 3 servos are stiff
+net release-brakes brakes_and2.out => lcec.0.wago.t1-out-2
 
 # ==========================================
 # SAFETY LOOP

@@ -8,6 +8,9 @@ set ::watchlist {
     pin+lcec.0.servo_j0.position-actual
     pin+lcec.0.servo_j1.position-actual
     pin+lcec.0.servo_j2.position-actual
+    pin+lcec.0.servo_j0.torque-actual
+    pin+lcec.0.servo_j1.torque-actual
+    pin+lcec.0.servo_j2.torque-actual
 }
 set ::workmode watchhal
 set ::watchInterval 100
