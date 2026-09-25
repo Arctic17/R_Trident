@@ -99,6 +99,17 @@ Ki = 1.5;
 Kd = 4;
 Nd = 100;
 
+% --- BELT DRIVE & INERTIA PARAMETERS ---
+params.enable_belt = 1;            % 1 = Belt Drive, 0 = Direct Drive
+params.R_belt = 3.0;               % Mechanical reduction ratio (e.g., 3:1)
+
+% Rotational Inertias [kg*m^2]
+params.I_rotor = 0.60e-4;          % 400W Servo motor rotor inertia
+params.I_pulley_motor = 1.0e-5;    % Estimated driving pulley inertia (small)
+params.I_pulley_arm = 9.0e-5;      % Estimated driven pulley inertia (large)
+
+
+
 %% Calculated Constants (Used for the math blocks later)
 % These constants speed up the PLC execution time
 params.sqrt3 = sqrt(3);
