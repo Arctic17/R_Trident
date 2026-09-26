@@ -76,7 +76,7 @@ params.plate_radius    = 45;
 params.e = params.plate_radius;   % tool plate radius
 
 % Base Geometry
-params.f = 125.0;  % radius base
+params.f = 135.0;  % radius base
 
 % Estimated Masses 
 bicep_vol = (params.bicep_length * params.bicep_width * params.bicep_height) * 1e-9; % m^3
@@ -89,14 +89,14 @@ params.forearm_mass = (rod_vol * params.rho_carbon_fiber) * 2; % 2 rods per arm
 params.phi = [0, 120, 240]; 
 
 % Motor mechanical limits (to prevent the arm from hitting the frame)
-params.theta_max = 115;   
+params.theta_max = 165;   
 params.theta_min = -0;  
 
 
 % PID TUNING 
 Kp = 40;    
 Ki = 1.5;  
-Kd = 4;
+Kd = 2;
 Nd = 100;
 
 % --- BELT DRIVE & INERTIA PARAMETERS ---
@@ -108,6 +108,7 @@ params.I_rotor = 0.60e-4;          % 400W Servo motor rotor inertia
 params.I_pulley_motor = 1.0e-5;    % Estimated driving pulley inertia (small)
 params.I_pulley_arm = 9.0e-5;      % Estimated driven pulley inertia (large)
 
+params.saturation_tau = 10; 
 
 
 %% Calculated Constants (Used for the math blocks later)

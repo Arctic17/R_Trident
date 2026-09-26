@@ -25,7 +25,7 @@ params.m_payload = 0.5; % Adding a 500g payload to the end-effector
 disp('Starting Simscape execution with temporary test parameters...');
 
 % Run the model (Ensure the model name matches your actual .slx file)
-sim_time = 10.0;
+sim_time = 10;
 try
     out = sim('SimulinkModel', 'StopTime', num2str(sim_time));
     disp('Simulation Complete.');
