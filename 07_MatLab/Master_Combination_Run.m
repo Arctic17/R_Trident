@@ -80,7 +80,7 @@ for i = 1:num_tests
     params.sim_time = 18.0;                    
     params.z_lift = 0;
     params.h_arch = 50;
-    params.r_arch = 125;
+    params.r_arch = 200;
     params.enable_vertical_drops = 0;
     params.time_drop = 0.1;
 

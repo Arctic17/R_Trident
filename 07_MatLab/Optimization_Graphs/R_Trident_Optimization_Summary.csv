@@ -1,0 +1,217 @@
+Bicep_Length_mm,Forearm_Length_mm,Reduction_Ratio,Configuration,Fastest_Cycle_Time_s,Max_Tracking_Error_mm
+170,340,1,L1-170 L2-340 R:1.0 (EC 90 flat Open Rotor 48V),0.6,7.27538474994136
+180,340,1,L1-180 L2-340 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,340,1,L1-190 L2-340 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,340,1,L1-200 L2-340 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,360,1,L1-170 L2-360 R:1.0 (EC 90 flat Open Rotor 48V),0.6,9.19464600526609
+180,360,1,L1-180 L2-360 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,360,1,L1-190 L2-360 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,360,1,L1-200 L2-360 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,380,1,L1-170 L2-380 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,380,1,L1-180 L2-380 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,380,1,L1-190 L2-380 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,380,1,L1-200 L2-380 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,400,1,L1-170 L2-400 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,400,1,L1-180 L2-400 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,400,1,L1-190 L2-400 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,400,1,L1-200 L2-400 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,420,1,L1-170 L2-420 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,420,1,L1-180 L2-420 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,420,1,L1-190 L2-420 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,420,1,L1-200 L2-420 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,440,1,L1-170 L2-440 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,440,1,L1-180 L2-440 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,440,1,L1-190 L2-440 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,440,1,L1-200 L2-440 R:1.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,340,2,L1-170 L2-340 R:2.0 (EC 90 flat Open Rotor 48V),0.5,5.38086529643031
+180,340,2,L1-180 L2-340 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,340,2,L1-190 L2-340 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,340,2,L1-200 L2-340 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,360,2,L1-170 L2-360 R:2.0 (EC 90 flat Open Rotor 48V),0.5,8.17378380384515
+180,360,2,L1-180 L2-360 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,360,2,L1-190 L2-360 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,360,2,L1-200 L2-360 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,380,2,L1-170 L2-380 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,380,2,L1-180 L2-380 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,380,2,L1-190 L2-380 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,380,2,L1-200 L2-380 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,400,2,L1-170 L2-400 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,400,2,L1-180 L2-400 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,400,2,L1-190 L2-400 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,400,2,L1-200 L2-400 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,420,2,L1-170 L2-420 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,420,2,L1-180 L2-420 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,420,2,L1-190 L2-420 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,420,2,L1-200 L2-420 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,440,2,L1-170 L2-440 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,440,2,L1-180 L2-440 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,440,2,L1-190 L2-440 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,440,2,L1-200 L2-440 R:2.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,340,3,L1-170 L2-340 R:3.0 (EC 90 flat Open Rotor 48V),0.4,5.86758893891988
+180,340,3,L1-180 L2-340 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,340,3,L1-190 L2-340 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,340,3,L1-200 L2-340 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,360,3,L1-170 L2-360 R:3.0 (EC 90 flat Open Rotor 48V),0.5,7.46348178628214
+180,360,3,L1-180 L2-360 R:3.0 (EC 90 flat Open Rotor 48V),0.5,9.86386563677532
+190,360,3,L1-190 L2-360 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,360,3,L1-200 L2-360 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,380,3,L1-170 L2-380 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,380,3,L1-180 L2-380 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,380,3,L1-190 L2-380 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,380,3,L1-200 L2-380 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,400,3,L1-170 L2-400 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,400,3,L1-180 L2-400 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,400,3,L1-190 L2-400 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,400,3,L1-200 L2-400 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,420,3,L1-170 L2-420 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,420,3,L1-180 L2-420 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,420,3,L1-190 L2-420 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,420,3,L1-200 L2-420 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,440,3,L1-170 L2-440 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+180,440,3,L1-180 L2-440 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+190,440,3,L1-190 L2-440 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+200,440,3,L1-200 L2-440 R:3.0 (EC 90 flat Open Rotor 48V),NaN,NaN
+170,340,1,L1-170 L2-340 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,340,1,L1-180 L2-340 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,340,1,L1-190 L2-340 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,340,1,L1-200 L2-340 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,360,1,L1-170 L2-360 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,360,1,L1-180 L2-360 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,360,1,L1-190 L2-360 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,360,1,L1-200 L2-360 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,380,1,L1-170 L2-380 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,380,1,L1-180 L2-380 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,380,1,L1-190 L2-380 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,380,1,L1-200 L2-380 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,400,1,L1-170 L2-400 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,400,1,L1-180 L2-400 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,400,1,L1-190 L2-400 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,400,1,L1-200 L2-400 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,420,1,L1-170 L2-420 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,420,1,L1-180 L2-420 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,420,1,L1-190 L2-420 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,420,1,L1-200 L2-420 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,440,1,L1-170 L2-440 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,440,1,L1-180 L2-440 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,440,1,L1-190 L2-440 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,440,1,L1-200 L2-440 R:1.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,340,2,L1-170 L2-340 R:2.0 (EC 60 flat Ventilated 48V),0.7,3.05433674295622
+180,340,2,L1-180 L2-340 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,340,2,L1-190 L2-340 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,340,2,L1-200 L2-340 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,360,2,L1-170 L2-360 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,360,2,L1-180 L2-360 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,360,2,L1-190 L2-360 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,360,2,L1-200 L2-360 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,380,2,L1-170 L2-380 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,380,2,L1-180 L2-380 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,380,2,L1-190 L2-380 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,380,2,L1-200 L2-380 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,400,2,L1-170 L2-400 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,400,2,L1-180 L2-400 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,400,2,L1-190 L2-400 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,400,2,L1-200 L2-400 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,420,2,L1-170 L2-420 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,420,2,L1-180 L2-420 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,420,2,L1-190 L2-420 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,420,2,L1-200 L2-420 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,440,2,L1-170 L2-440 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,440,2,L1-180 L2-440 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,440,2,L1-190 L2-440 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,440,2,L1-200 L2-440 R:2.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,340,3,L1-170 L2-340 R:3.0 (EC 60 flat Ventilated 48V),0.6,2.72844785225144
+180,340,3,L1-180 L2-340 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,340,3,L1-190 L2-340 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,340,3,L1-200 L2-340 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,360,3,L1-170 L2-360 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,360,3,L1-180 L2-360 R:3.0 (EC 60 flat Ventilated 48V),0.5,9.85777142524231
+190,360,3,L1-190 L2-360 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,360,3,L1-200 L2-360 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,380,3,L1-170 L2-380 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,380,3,L1-180 L2-380 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,380,3,L1-190 L2-380 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,380,3,L1-200 L2-380 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,400,3,L1-170 L2-400 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,400,3,L1-180 L2-400 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,400,3,L1-190 L2-400 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,400,3,L1-200 L2-400 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,420,3,L1-170 L2-420 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,420,3,L1-180 L2-420 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,420,3,L1-190 L2-420 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,420,3,L1-200 L2-420 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,440,3,L1-170 L2-440 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+180,440,3,L1-180 L2-440 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+190,440,3,L1-190 L2-440 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+200,440,3,L1-200 L2-440 R:3.0 (EC 60 flat Ventilated 48V),NaN,NaN
+170,340,1,L1-170 L2-340 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,340,1,L1-180 L2-340 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,340,1,L1-190 L2-340 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,340,1,L1-200 L2-340 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,360,1,L1-170 L2-360 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,360,1,L1-180 L2-360 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,360,1,L1-190 L2-360 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,360,1,L1-200 L2-360 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,380,1,L1-170 L2-380 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,380,1,L1-180 L2-380 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,380,1,L1-190 L2-380 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,380,1,L1-200 L2-380 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,400,1,L1-170 L2-400 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,400,1,L1-180 L2-400 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,400,1,L1-190 L2-400 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,400,1,L1-200 L2-400 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,420,1,L1-170 L2-420 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,420,1,L1-180 L2-420 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,420,1,L1-190 L2-420 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,420,1,L1-200 L2-420 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,440,1,L1-170 L2-440 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,440,1,L1-180 L2-440 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,440,1,L1-190 L2-440 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,440,1,L1-200 L2-440 R:1.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,340,2,L1-170 L2-340 R:2.0 (EC-i 52 High Torque 48V),0.6,3.61044565914667
+180,340,2,L1-180 L2-340 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,340,2,L1-190 L2-340 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,340,2,L1-200 L2-340 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,360,2,L1-170 L2-360 R:2.0 (EC-i 52 High Torque 48V),0.7,7.07880046684632
+180,360,2,L1-180 L2-360 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,360,2,L1-190 L2-360 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,360,2,L1-200 L2-360 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,380,2,L1-170 L2-380 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,380,2,L1-180 L2-380 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,380,2,L1-190 L2-380 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,380,2,L1-200 L2-380 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,400,2,L1-170 L2-400 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,400,2,L1-180 L2-400 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,400,2,L1-190 L2-400 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,400,2,L1-200 L2-400 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,420,2,L1-170 L2-420 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,420,2,L1-180 L2-420 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,420,2,L1-190 L2-420 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,420,2,L1-200 L2-420 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,440,2,L1-170 L2-440 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,440,2,L1-180 L2-440 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,440,2,L1-190 L2-440 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,440,2,L1-200 L2-440 R:2.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,340,3,L1-170 L2-340 R:3.0 (EC-i 52 High Torque 48V),0.5,3.28057540564772
+180,340,3,L1-180 L2-340 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,340,3,L1-190 L2-340 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,340,3,L1-200 L2-340 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,360,3,L1-170 L2-360 R:3.0 (EC-i 52 High Torque 48V),0.6,6.7701194919138
+180,360,3,L1-180 L2-360 R:3.0 (EC-i 52 High Torque 48V),0.5,9.87301604893689
+190,360,3,L1-190 L2-360 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,360,3,L1-200 L2-360 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,380,3,L1-170 L2-380 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,380,3,L1-180 L2-380 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,380,3,L1-190 L2-380 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,380,3,L1-200 L2-380 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,400,3,L1-170 L2-400 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,400,3,L1-180 L2-400 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,400,3,L1-190 L2-400 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,400,3,L1-200 L2-400 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,420,3,L1-170 L2-420 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,420,3,L1-180 L2-420 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,420,3,L1-190 L2-420 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,420,3,L1-200 L2-420 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+170,440,3,L1-170 L2-440 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+180,440,3,L1-180 L2-440 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+190,440,3,L1-190 L2-440 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
+200,440,3,L1-200 L2-440 R:3.0 (EC-i 52 High Torque 48V),NaN,NaN
