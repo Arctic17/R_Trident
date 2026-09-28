@@ -65,7 +65,7 @@ params.bicep_height = 30;
 params.bicep_geo =  [params.bicep_length params.bicep_width params.bicep_height];
 
 % Forearm 
-params.forearm_length = 400;
+params.forearm_length = 340;
 params.rod_radius   = 6; 
 
 % End Effector
