@@ -10,9 +10,7 @@ if ~exist(out_folder, 'dir')
 end
 
 %% 2. Define Parameter Sweep Arrays
-L_bicep_opts   = [200, 180, 160];         
-L_forearm_opts = [420, 400, 380, 360, 340];         
-ratio_opts     = [1.0, 2.0, 3.0];   
+so
 
 % Motor Options: [I_rotor (kg*m^2), Tau_Continuous, Tau_Peak]
 motor_labels = {'EC 90 flat Open Rotor 48V', 'EC 60 flat Ventilated 48V', 'EC-i 52 High Torque 48V'}; 
