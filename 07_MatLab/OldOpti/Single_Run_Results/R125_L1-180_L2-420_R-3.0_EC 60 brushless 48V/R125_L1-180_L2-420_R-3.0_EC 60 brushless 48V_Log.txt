@@ -1,0 +1,15 @@
+==================================================
+Selected Configuration: L1-180_L2-420_R-3.0_EC 60 brushless 48V
+==================================================
+Running Analytical Math Model...
+Executing 3D Simscape Model...
+Simscape Simulation Complete.
+
+Evaluating Speed Tiers across simulation timeline:
+  Tier  1 (CT = 0.50s): PASSED -> Peak:  0.78 Nm, RMS: 0.37 Nm, Err:  8.72 mm
+  Tier  2 (CT = 0.45s): PASSED -> Peak:  0.96 Nm, RMS: 0.44 Nm, Err:  8.76 mm
+  Tier  3 (CT = 0.40s): PASSED -> Peak:  1.25 Nm, RMS: 0.55 Nm, Err:  8.88 mm
+  Tier  4 (CT = 0.35s): PASSED -> Peak:  1.69 Nm, RMS: 0.72 Nm, Err:  9.19 mm
+  Tier  5 (CT = 0.30s): FAILED -> Peak:  2.38 Nm (lim 6.82), RMS: 0.98 Nm (lim 0.84), Err:  9.75 mm (lim 10.0)
+
+Evaluation Summary: Fastest Successful CT = 0.35 s | Max Error = 9.19 mm

@@ -1,0 +1,17 @@
+==================================================
+Selected Configuration: L1-160_L2-380_R-2.0_EC-i 52 High Torque 48V
+Trajectory Mode: 2
+==================================================
+Running Analytical Math Model...
+Executing 3D Simscape Model...
+Simscape Simulation Complete.
+
+Evaluating Speed Tiers across simulation timeline:
+  Tier  1 (CT = 0.50s): PASSED -> Peak:  0.49 Nm, RMS: 0.27 Nm, Err:  9.43 mm
+  Tier  2 (CT = 0.45s): PASSED -> Peak:  0.52 Nm, RMS: 0.28 Nm, Err:  9.51 mm
+  Tier  3 (CT = 0.40s): PASSED -> Peak:  0.57 Nm, RMS: 0.31 Nm, Err:  9.61 mm
+  Tier  4 (CT = 0.35s): PASSED -> Peak:  0.64 Nm, RMS: 0.35 Nm, Err:  9.71 mm
+  Tier  5 (CT = 0.30s): PASSED -> Peak:  0.79 Nm, RMS: 0.43 Nm, Err:  9.84 mm
+  Tier  6 (CT = 0.25s): FAILED -> Peak:  1.10 Nm (lim 7.83), RMS: 0.57 Nm (lim 0.63), Err: 10.01 mm (lim 10.0)
+
+Evaluation Summary: Fastest Successful CT = 0.30 s | Max Error = 9.84 mm

@@ -76,7 +76,7 @@ params.plate_radius    = 45;
 params.e = params.plate_radius;   % tool plate radius
 
 % Base Geometry
-params.f = 135.0;  % radius base
+params.f = 125.0;  % radius base
 
 % Estimated Masses 
 bicep_vol = (params.bicep_length * params.bicep_width * params.bicep_height) * 1e-9; % m^3
@@ -231,11 +231,11 @@ params.pulses_per_rev = 2^17;
 params.gear_ratio = 1;          
 params.deg_to_pulses = (params.pulses_per_rev * params.gear_ratio) / 360;
 
-%% Display Summary
-fprintf('--- R-Trident Configuration Loaded ---\n');
-fprintf('Configuration: L1 = %d mm, L2 = %d mm\n', L1, L2);
-fprintf('Theta Limits : [%d deg, %d deg]\n', th_min, th_max);
-fprintf('Max Usable Continuous Radius: %.2f mm (at Z = %.1f mm)\n', max_r_overall, best_z);
-fprintf('Usable Cylinder Diameter    : %.2f mm\n', 2 * max_r_overall);
-fprintf('Total Arm Length: %.2f mm\n', params.bicep_length + params.forearm_length);
-fprintf('Servo Scaling: %.2f pulses/degree\n', params.deg_to_pulses);
+% %% Display Summary
+% fprintf('--- R-Trident Configuration Loaded ---\n');
+% fprintf('Configuration: L1 = %d mm, L2 = %d mm\n', L1, L2);
+% fprintf('Theta Limits : [%d deg, %d deg]\n', th_min, th_max);
+% fprintf('Max Usable Continuous Radius: %.2f mm (at Z = %.1f mm)\n', max_r_overall, best_z);
+% fprintf('Usable Cylinder Diameter    : %.2f mm\n', 2 * max_r_overall);
+% fprintf('Total Arm Length: %.2f mm\n', params.bicep_length + params.forearm_length);
+% fprintf('Servo Scaling: %.2f pulses/degree\n', params.deg_to_pulses);

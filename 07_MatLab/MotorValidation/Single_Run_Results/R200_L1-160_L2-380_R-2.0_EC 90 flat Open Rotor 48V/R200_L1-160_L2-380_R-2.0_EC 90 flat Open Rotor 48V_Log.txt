@@ -1,0 +1,17 @@
+==================================================
+Selected Configuration: L1-160_L2-380_R-2.0_EC 90 flat Open Rotor 48V
+Trajectory Mode: 2
+==================================================
+Running Analytical Math Model...
+Executing 3D Simscape Model...
+Simscape Simulation Complete.
+
+Evaluating Speed Tiers across simulation timeline:
+  Tier  1 (CT = 0.50s): PASSED -> Peak:  0.51 Nm, RMS: 0.28 Nm, Err:  9.48 mm
+  Tier  2 (CT = 0.45s): PASSED -> Peak:  0.54 Nm, RMS: 0.29 Nm, Err:  9.58 mm
+  Tier  3 (CT = 0.40s): PASSED -> Peak:  0.60 Nm, RMS: 0.32 Nm, Err:  9.69 mm
+  Tier  4 (CT = 0.35s): PASSED -> Peak:  0.67 Nm, RMS: 0.37 Nm, Err:  9.81 mm
+  Tier  5 (CT = 0.30s): PASSED -> Peak:  0.84 Nm, RMS: 0.46 Nm, Err:  9.97 mm
+  Tier  6 (CT = 0.25s): FAILED -> Peak:  1.20 Nm (lim 9.57), RMS: 0.63 Nm (lim 1.22), Err: 10.18 mm (lim 10.0)
+
+Evaluation Summary: Fastest Successful CT = 0.30 s | Max Error = 9.97 mm

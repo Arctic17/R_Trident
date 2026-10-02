@@ -1,0 +1,14 @@
+==================================================
+Selected Configuration: L1-180_L2-420_R-3.0_EC-i 52 High Torque 48V
+==================================================
+Running Analytical Math Model...
+Executing 3D Simscape Model...
+Simscape Simulation Complete.
+
+Evaluating Speed Tiers across simulation timeline:
+  Tier  1 (CT = 0.50s): PASSED -> Peak:  0.76 Nm, RMS: 0.36 Nm, Err:  8.73 mm
+  Tier  2 (CT = 0.45s): PASSED -> Peak:  0.93 Nm, RMS: 0.43 Nm, Err:  8.74 mm
+  Tier  3 (CT = 0.40s): PASSED -> Peak:  1.20 Nm, RMS: 0.53 Nm, Err:  8.86 mm
+  Tier  4 (CT = 0.35s): FAILED -> Peak:  1.63 Nm (lim 7.83), RMS: 0.69 Nm (lim 0.63), Err:  9.11 mm (lim 10.0)
+
+Evaluation Summary: Fastest Successful CT = 0.40 s | Max Error = 8.86 mm
