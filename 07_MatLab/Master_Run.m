@@ -31,7 +31,7 @@ motor_opts = [
 % =========================================================================
 % DESIGN SELECTION CONFIGURATION
 % =========================================================================
-m_idx                 = 1;     % Motor Index: 1 (EC 90), 2 (EC 60), 3 (EC-i 52)
+m_idx                 = 3;     % Motor Index: 1 (EC 90), 2 (EC 60), 3 (EC-i 52)
 params.bicep_length   = 160;   % [mm] Swept options: 200, 180, 160
 params.forearm_length = 380;   % [mm] Swept options: 420, 400, 380, 360, 340
 params.R_belt         = 2.0;   % Reduction ratio: 1.0 (Direct Drive), 2.0, 3.0
